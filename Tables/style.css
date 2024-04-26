@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    
+}
+
+.biulding-tables {
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 12px 100px rgba(0, 0, 0, 0.1);
+    height: 150px;
+}
+table {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #ffffffe3;
+    overflow-x: auto;
+}
+
+.biulding-tables thead {
+    background-color: #026916;
+    font-size: 12px;
+} 
+
+th, td {
+    padding: 12px 12px;
+} 
+
+.biulding-tables thead tr th {
+    color: white;
+}
+.biulding-tables tbody tr {
+    font-size: 12px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+}
+
+.biulding-tables tbody tr:nth-child(even) {
+    background-color: #f1f3f5;
+}

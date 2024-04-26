@@ -1,0 +1,93 @@
+.carousel {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    color: white;
+    width: 550px;
+    
+    background-color: #099268;
+    padding: 12px 48px 12px 70px;
+    border-radius: 8px;
+    column-gap: 80px;
+    position: relative;
+    align-items: center;
+}
+
+img {
+    height: 160px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0,0.3);
+    border-radius: 5px;
+    scale: 1.5;
+}
+
+.testmonial {
+    position: relative;
+    margin-top: 0px;
+    line-height: 1.52;
+}
+
+.testmonial-auther {
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.testmonial-job {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+.w-6 {
+    width: 40px;
+    height: 40px;
+    stroke: #12b886;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    stroke: #12b886;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--left {
+    left: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.btn--right {
+    right: 0;
+    top: 50%;
+    transform: translate(50%,-50%);
+}
+
+.dot-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 24px);
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #099268;
+    border-radius: 50%;
+
+}
+.first {
+    background-color: #099268;
+}
